@@ -32,9 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
     private List<String> getDatas(){
         List<String> datas = new ArrayList<>();
-        for(int i = 0;i<30;i++){
-            datas.add(i + "");
-        }
+        datas.add("Glide 加载图片");
         return datas;
     }
 }

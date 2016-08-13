@@ -39,7 +39,9 @@ public abstract class BaseRecyclerViewAdapter<T> extends RecyclerView.Adapter<Ba
             mLayoutInflater =  LayoutInflater.from(parent.getContext());
         }
         return mLayoutInflater;
+
     }
 
    public abstract void setLayoutIds(SparseArray<Integer> layoutIds);
+
 }
